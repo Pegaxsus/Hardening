@@ -1,11 +1,11 @@
-# 📚 Hardening Knowledge Base – Master Index
+# Hardening Knowledge Base – Index
 
 This file serves as the central index of the repository, each section links to dedicated documentation files for better modularity and navigation.  
 
 ---
 
 ## 1. Hardening Principles
-- [Introduction to Hardening](chapters/principles_introduction.md)  
+- [Introduction to Hardening](principles_introduction.md)  
 - [Security Baselines](chapters/principles_baselines.md)  
 - [Standards & Frameworks](chapters/principles_frameworks.md)  
 

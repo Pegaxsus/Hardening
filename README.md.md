@@ -8,7 +8,7 @@ The purpose is twofold:
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 The documentation is organized into specific technical domains:
 
 - **Hardening Principles**  
@@ -54,7 +54,7 @@ The documentation is organized into specific technical domains:
 
 ---
 
-## 🔍 Technical Scope
+## Technical Scope
 All measures documented here are based on widely recognized security practices:  
 
 - **CIS Benchmarks** – secure configuration guidelines.  
@@ -65,7 +65,7 @@ All measures documented here are based on widely recognized security practices:
 
 ---
 
-## 📌 Methodology
+## Methodology
 - Identify risks and relevant threats for each environment.  
 - Select hardening measures aligned with applicable standards.  
 - Document technical configurations and automation scripts.  
@@ -73,13 +73,13 @@ All measures documented here are based on widely recognized security practices:
 
 ---
 
-## 📖 Repository Usage
+## Repository Usage
 - **Security professionals** → as a reference framework for hardening projects or audits.  
 - **Organizations** → as alignment material for security baselines.  
 - **Personal research** → as practical evidence of advanced defensive cybersecurity knowledge.  
 
 ---
 
-## 📜 License
+## License
 This repository is distributed under the [MIT License](LICENSE).  
 Content is provided for technical reference and learning purposes.
