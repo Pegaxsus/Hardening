@@ -1,0 +1,1 @@
+Pendiente securizacion de hardware, puertos, ilos, bios, firmware

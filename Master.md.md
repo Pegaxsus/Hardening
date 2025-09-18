@@ -8,6 +8,7 @@ This file serves as the central index of the repository, each section links to d
 - [Introduction to Hardening](principles_introduction.md)  
 - [Security Baselines](chapters/principles_baselines.md)  
 - [Standards & Frameworks](chapters/principles_frameworks.md)  
+- [Documentation](chapters/principles_documentation.md)
 
 ---
 
@@ -66,7 +67,11 @@ This file serves as the central index of the repository, each section links to d
 
 ---
 
-## 8. Resources & Tools
+## 8. Annex: Low Level Hardening
+- [Physical Security](chapters/LLH_physical_security.md)  
+- [Hardware Security](chapters/LLH_hardware_security.md)  
+- 
+## 9. Resources & Tools
 - [Checklists](chapters/resources_checklists.md)  
 - [Automation Scripts (Bash, PowerShell, Ansible)](chapters/resources_scripts.md)  
 - [External References](chapters/resources_references.md)  
