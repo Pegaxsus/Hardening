@@ -51,11 +51,11 @@ A **security baseline** is a predefined set of security configurations and contr
 ---
 
 ## Baseline Development Process
-1. **Identify Standards** – choose CIS, STIG, or industry-specific references. This may vary depending  on the country where the project its hosted.
-2. **Customize Controls** – adapt to organizational context and operational needs.  
-3. **Test in Non-Production** – validate against real workloads to ensure no disruptions.  
+1. **Identify Standards** – choose CIS, STIG, or industry-specific references. This may vary depending on the country where the project its hosted.
+2. **Customize Controls** – adapt to organizational context and operational needs. for the project ahead.
+3. **Test in Non-Production** – validate against real workloads to ensure no disruptions and good-to-go performance.  
 4. **Deploy at Scale** – enforce baseline across all relevant systems.  
-5. **Monitor & Update** – continuously improve and patch deviations.  
+5. **Monitor & Update** – continuously monitor for performance degradation and patch deviations, in that case, there must exist a proper methodology to update the baseline.
 
 ---
 
@@ -67,25 +67,17 @@ A **security baseline** is a predefined set of security configurations and contr
 
 ---
 
+## Case Study: Ubuntu Server 24.04 LTS Baseline
+Check this:  [Study Case](../examples/principles_baselines_study_caseWIP.md) to review an example.
+
+---
+
 ## Summary
 Security baselines represent the **minimum security posture** an organization should enforce.  
-They ensure consistency, reduce misconfigurations, and provide a repeatable foundation for hardening, auditing, and compliance activities.
-
-
-
-
-
-
-
-
-
-
-
-
-
+They ensure consistency, reduce misconfigurations, and provide a repeatable foundation for hardening, auditing, and compliance activities, this way, all systems with the same baseline will be easier to evaluate or update.
 
 
 
 END OF THE FILE
 ---
-| [📚 Master Index](../MASTER.md) | [➡️ Next](principles_baselines.md)
+[⬅️ Previous](principles_introduction.md) | [📚 Master Index](../MASTER.md) | [➡️ Next](principles_frameworks.md)
