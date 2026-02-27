@@ -2,6 +2,7 @@
 
 This file serves as the central index of the repository, each section links to dedicated documentation files for better modularity and navigation.  
 
+
 ---
 
 ## 1. Hardening Principles
