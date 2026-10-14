@@ -12,7 +12,7 @@ Store screenshots used by the iOS Hardening and Privacy Guide in this folder.
 
 ## Markdown usage
 
-From the project README, reference screenshots with a relative path:
+From `main-guide.md`, reference screenshots with a relative path:
 
 ```markdown
 ![Description of the settings screen](screenshots/example.png)
