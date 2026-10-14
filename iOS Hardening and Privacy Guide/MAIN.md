@@ -90,17 +90,21 @@ Go to Settings > General > Software Update
 It should be set at least as "Download only", to be ready at anytime.
 
 The suggested setup for iOS software updates should looks like this:
-![[2.0.0-sw-updates1.jpg]]
 
-
-
-
-
-
+![[2.0.0-sw-update-comb.jpg]]
 
 ## 3. Lock screen access and device theft protection
 
-### 3.1 Control centre
+Even locked there is a lot of things that can be done from lock screen if there is no active protection, for examle:
+
+- Contro
+
+### 3.1 Control centre and Notification Centre
+The control centre allows management of critical actions, such as network access, apple pay and (less critical) music status.
+
+For this reason, it access should be restricted to authenticated user only.
+
+Go to Settings > Face ID & Passcode (enter your passcode)
 
 ### 3.2 Notification centre
 
