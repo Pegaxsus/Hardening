@@ -95,23 +95,49 @@ The suggested setup for iOS software updates should looks like this:
 
 ## 3. Lock screen access and device theft protection
 
-Even locked there is a lot of things that can be done from lock screen if there is no active protection, for examle:
+In this section you'll setup protection in the case of theft or loss for locked iOS device.
 
-- Contro
+### 3.1 Lock screen protection
 
-### 3.1 Control centre and Notification Centre
-The control centre allows management of critical actions, such as network access, apple pay and (less critical) music status.
+Even locked there is a lot of things that can be done from lock screen if there is no active protection, for example:
 
-For this reason, it access should be restricted to authenticated user only.
+- Control centre: allows management of critical actions, such as network access, apple pay and (less critical) music status.
+- Notification Centre: contains the notifications that may include personal conversations or more sensitive content such as SMS authentication/verification codes.
+- Carrier Service: allows disabling/enabling the carrier connectivity.
 
 Go to Settings > Face ID & Passcode (enter your passcode)
 
-### 3.2 Notification centre
+Navigate down until "Allow Access When Locked", you'll see the following:
 
-### 3.3 Carrier service
+![[3.1.lock.jpg]]
 
-### 3.4 Apple pay
+Disable:
+- Notification Centre (prevent access to chats, SMS, etc).
+![[3.1notification.jpg]]
+- Control Centre (main functions)
+- Lock Screen Widgets (prevent home automation usage)
+- Siri
+- Home Control
+- Wallet (cards and identifications)
+- Workout Health Data (any health data is private)
 
+You may leave enabled:
+- Today View and Search
+- Return missed calls (you might be able to be responded if someone finds it and you call).
+
+### 3.2 Apple pay
+
+Apple Pay is always requiring FaceID for usage, but as seen above, it should also remain disabled, because in other way the thief could be able to see available cards, or even name or flight information.
+![[3.1.applepay.jpg]]
+Above. What can be seen without authentication.
+
+
+## 4. Carrier Service
+
+This setting maybe obvious for more modern lines, but older ones might have a physical SIM card, a thief by pulling it out might disable the phone's ability to communicate.
+
+In this case, a workaround is to have a virtual SIM that cannot be extracted, and in conjuntion with Control Centre protection, the thief cannot switch of carrier service.
+Note: take into account that this is a mitigation, underground or in tunnel the carrier service will also be innaccesible, but at least the last location will be saved.
 
 
 ## Documentation conventions
